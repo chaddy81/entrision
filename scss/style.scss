@@ -1,0 +1,35 @@
+@import 'mixins';
+@include declare-font-face('Gotham', 'gothamhtf-book-webfont', 400);
+
+.callout {
+  background: #fff;
+  font-family: 'Gotham';
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-default {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.navbar-nav {
+  margin-top: 12px;
+}
+
+.home {
+  .jumbotron {
+    background: url('../images/home-hero.jpg') center center no-repeat;
+    background-size: cover;
+    height: 780px;
+    padding-top: 20px;
+  }
+}

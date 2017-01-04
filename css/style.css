@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gothamhtf-book-webfont.eot");
+  src: url("../fonts/gothamhtf-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothamhtf-book-webfont.woff") format("woff"), url("../fonts/gothamhtf-book-webfont.ttf") format("truetype"), url("../fonts/gothamhtf-book-webfont.svg#Gotham") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+.callout {
+  background: #fff;
+  font-family: 'Gotham';
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.navbar-default {
+  background-color: transparent !important;
+  border: none !important; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #fff; }
+
+.navbar-nav {
+  margin-top: 12px; }
+
+.home .jumbotron {
+  background: url("../images/home-hero.jpg") center center no-repeat;
+  background-size: cover;
+  height: 780px;
+  padding-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
